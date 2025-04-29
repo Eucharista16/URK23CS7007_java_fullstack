@@ -8,7 +8,7 @@ A simple full-stack **Bus Reservation System** developed using a **GUI-based Jav
 - **Frontend**: Java Swing (GUI)
 - **Backend**: Java
 - **Database**: MySQL
-- **IDE**: NetBeans (recommended)
+- **IDE**: Eclipse IDE  (recommended)
 
 ---
 
@@ -38,7 +38,7 @@ A simple full-stack **Bus Reservation System** developed using a **GUI-based Jav
 
 Extract the project folder.
 
-Open the project in NetBeans or your preferred Java IDE.
+Open the project in Eclipse IDE or your preferred Java IDE.
 
 Set up your database (as described above).
 
