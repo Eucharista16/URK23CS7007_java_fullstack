@@ -23,3 +23,32 @@ Build and run the project from the src/ folder.
 Java JDK 8 or higher
 
 Eclipse IDE (or any other Java-supported IDE)
+
+✨ Features
+Add and manage buses
+
+Search and view bus details
+
+Handle bus bookings and cancellations
+
+Console-based user interaction
+
+Simple and modular Java architecture
+
+🛠️ Technologies Used
+Java (Core)
+
+Eclipse IDE
+
+Console I/O (no GUI)
+
+File Handling (if applicable)
+
+📈 Future Improvements
+Add a Graphical User Interface (GUI) using JavaFX or Swing
+
+Implement Database integration (MySQL or SQLite)
+
+Introduce user authentication and roles (admin, passenger)
+
+Add error handling and data validation
