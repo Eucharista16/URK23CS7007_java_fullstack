@@ -1,55 +1,64 @@
-BUS MANAGEMENT SYSTEM
+## 🚌 BUS RESERVATION SYSTEM
 
-📋 Project Overview
-This is a Full Stack Java Project for managing a Bus system.
-It uses core Java concepts and is structured for an Eclipse IDE environment.
+A simple full-stack **Bus Reservation System** developed using a **GUI-based Java application** and **MySQL** as the backend database.
 
-📂 Project Structure
-src/ — Source code (Java classes)
 
-bin/ — Compiled .class files
+## 💻 TECH STACK
 
-.classpath, .project — Eclipse configuration files
+- **Frontend**: Java Swing (GUI)
+- **Backend**: Java
+- **Database**: MySQL
+- **IDE**: NetBeans (recommended)
 
-.settings/ — IDE settings
+---
 
-🚀 How to Run
-Open the project in Eclipse or any Java IDE.
+## 🛠️ Features
 
-Make sure JDK is properly set up.
+- User-friendly graphical interface.
+- Connects to MySQL database for real-time data operations.
+- Supports:
+  - User registration and login.
+  - Booking and cancellation of tickets.
+  - Admin-side bus and route management.
 
-Build and run the project from the src/ folder.
+---
 
-✅ Requirements
-Java JDK 8 or higher
+## 🗃️ Database Setup
 
-Eclipse IDE (or any other Java-supported IDE)
+1. Open MySQL Workbench or any MySQL client.
+2. Run the script in the `Database_bus.sql` file provided.
+3. Make sure your database name matches the one used in the Java code.
+4. Update DB credentials in the source code if necessary:
+   ```java
+   String url = "jdbc:mysql://localhost:3306/<your_database>";
+   String user = "<your_username>";
+   String pass = "<your_password>";
 
-✨ Features
-Add and manage buses
+## 🚀 How to Run
 
-Search and view bus details
+Extract the project folder.
 
-Handle bus bookings and cancellations
+Open the project in NetBeans or your preferred Java IDE.
 
-Console-based user interaction
+Set up your database (as described above).
 
-Simple and modular Java architecture
+Run the main class (typically something like Main.java or Login.java).
 
-🛠️ Technologies Used
-Java (Core)
+Start booking!
 
-Eclipse IDE
+## Fullstackproject/
 
-Console I/O (no GUI)
+├── src/
+│   ├── <Java source files>
+├── Database_bus.sql
+├── README.md
 
-File Handling (if applicable)
+## 📌 Notes
+Make sure MySQL is running before starting the application.
 
-📈 Future Improvements
-Add a Graphical User Interface (GUI) using JavaFX or Swing
+Ensure the required JDBC driver is added to your project library.
 
-Implement Database integration (MySQL or SQLite)
 
-Introduce user authentication and roles (admin, passenger)
 
-Add error handling and data validation
+
+
