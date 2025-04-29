@@ -49,8 +49,11 @@ Start booking!
 ## Fullstackproject/
 
 ├── src/
+
 │   ├── <Java source files>
+
 ├── Database_bus.sql
+
 ├── README.md
 
 ## 📌 Notes
