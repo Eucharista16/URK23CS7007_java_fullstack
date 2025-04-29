@@ -1,4 +1,4 @@
-Bus Management System
+BUS MANAGEMENT SYSTEM
 
 📋 Project Overview
 This is a Full Stack Java Project for managing a Bus system.
